@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    html {
+      font-size: 62.4%;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      color: hsl(0, 0%, 100%);
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0;
+      font-size: 1.4rem;
+    }
+
+    .wrapper {
+      background-color: hsl(0, 0%, 12%);
+      width: 90%;
+      margin-top: -180px;
+      border-radius: 10px;
+      text-align: center;
+      height: max-content;
+      padding-bottom: 20px;
+    }
+
+    .avatar {
+      margin: 0px auto;
+      width: fit-content;
+      width: -moz-fit-content;
+      margin-top: 21px;
+    }
+
+    img {
+      border-radius: 50%;
+      height: 89px;
+    }
+
+    .name {
+      font-weight: 500;
+      font-size: 24px;
+      margin-bottom: 8px;
+      margin-top: 24px;
+    }
+
+    .location {
+      font-size: 14px;
+      color: hsl(75, 94%, 57%);
+      font-weight: 600;
+    }
+
+    .self-description {
+      font-weight: 200;
+      margin-top: 26px;
+    }
+
+    .social-media-btns {
+      margin-top: 24px;
+      display: grid;
+      place-items: center;
+    }
+
+    .social-media-btns>div {
+      padding: 12px;
+      background-color: hsl(0, 0%, 20%);
+      width: 80%;
+      border-radius: 10px;
+      margin-bottom: 16px;
+      font-weight: 600;
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+
+
+    .social-media-btns>div:hover { 
+      background-color: yellow; 
+      color:black;
+      cursor:pointer;
+    }
+
+    .social-media-btns>div:last-of-type {
+      margin-bottom: 8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      .wrapper {
+        width: 20%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="header">
+      <div class="avatar">
+        <img src="../social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="Avatar">
+      </div>
+      <div class="name">
+        Jessica Randall
+      </div>
+    </div>
+
+    <div class="location">
+      London, United Kingdom
+    </div>
+
+    <div class="self-description">
+      "Front-end developer and avid reader."
+    </div>
+
+
+
+    <div class="social-media-btns">
+
+      <div class="btn-gitHub">
+        GitHub
+      </div>
+
+      <div class="btn-frontend-mentor">
+        Frontend Mentor
+      </div>
+
+      <div class="btn-linkedIn">
+        LinkedIn
+      </div>
+
+      <div class="btn-twitter">
+        Twitter
+      </div>
+
+      <div class="btn-instagram">
+        Instagram
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
