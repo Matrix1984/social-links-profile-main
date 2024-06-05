@@ -32,7 +32,7 @@ Users should be able to:
  
 ### Links
  
-- Live Site URL: [Add live site URL here](https://matrix1984.github.io/social-links-profile-main/)
+- Live Site URL: [https://matrix1984.github.io/social-links-profile-main/]
 
 ## My process
 
